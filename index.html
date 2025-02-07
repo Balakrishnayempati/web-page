@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://icon-library.com/images/icon-developer/icon-developer-5.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: rgb(108, 116, 113);
+        }
+        nav 
+        {
+            background-color:black;
+            width: 100vw;
+            border: 2px solid rgb(103, 102, 102);
+            box-shadow: 0px 2px 10px 2px;
+            position: relative;
+            padding: 1rem;
+            position: fixed;
+            z-index: 2;
+            
+        }
+
+       ul{
+        list-style: none;
+       }
+      a:hover
+      {
+        color:rgb(243, 229, 229);
+        background-color:black;
+        box-shadow: 2px 0px 4px 0px;
+      }
+      li::first-letter
+      {
+        
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      img
+      {
+        width: 100vw;
+        position: relative;
+        opacity: 0.9;
+
+      }
+      
+      i{
+        color: rgb(234, 12, 12);
+       
+      }
+      h1
+      {
+        position:absolute;
+        top: 200px;
+        color: rgb(247, 245, 242);
+        left:0px;
+        font-size: 80px;
+        text-shadow: 4px 0px 4px;
+        height: 50vp;
+      }
+
+      h2{
+        position: absolute;
+        top:300px;
+        color: rgb(247, 245, 242);
+        left: 40px;
+        font-size: 80px;
+        text-shadow: 4px 0px 4px;
+      }
+      h5{
+        position: absolute;
+        top: 400px;
+        color: rgb(247, 245, 242);
+        left: 80px;
+        font-size: 80px;
+        text-shadow: 4px 0px 4px;
+      }
+      h1::first-letter
+      {
+        color: grey;
+        font-size: 100px;
+      }
+
+      h5::first-letter
+      {
+        color: grey;
+        font-size: 100px;
+      }
+      h2::first-letter
+      {
+        color: grey;
+        font-size: 100px;
+      }
+      h1:hover
+      {
+        color:black;
+      }
+      h2:hover
+      {
+        color:black;
+      }
+      h5:hover
+      {
+        color:black;
+      }
+.pro
+{   
+position: absolute;
+right: 4em;
+}
+.be
+{
+    position: absolute;
+    right: 12em;
+}
+.fe
+{
+    position: absolute;
+    right: 20em;
+}
+.images
+{
+    height: 14em;
+    width: 408px;
+    background-color: rgb(108, 116, 113);
+    box-shadow: 0px 0px 8px 2px white;
+    border: 3px solid rgb(233, 222, 222);
+    margin: 10px;
+    
+
+}
+div
+{
+    display: inline-block;
+}
+
+.dev
+{
+    
+    position: sticky;
+   margin:20px;
+    font-size: 20px;
+    text-shadow: 0px 2px 2px white;
+
+}
+#im3
+{
+    position: relative;
+    left: 130px;
+    border-radius: 2%;
+}
+#im1
+{
+    position: relative;
+    right: 0px;
+    border-radius: 2%;
+}
+#im2
+{
+    position: relative;
+    left:80px ;
+    border-radius: 2%;
+
+}
+#im2:hover
+{
+    border-color: white;
+    box-shadow: 10px 20px 10px ;
+}
+#im3:hover
+{
+    border-color: white;
+    box-shadow: 10px 20px 10px ;
+}#im1:hover
+{
+    border-color: white;
+    box-shadow: 10px 20px 10px ;
+}
+
+h3{
+    position: relative;
+    text-align: center
+}
+.ss
+{
+    margin-top: 50px;
+    width: 100%;
+}
+.register
+{
+    background-color: rgb(70, 105, 95);
+    width: 400px;
+    height: 550px;
+    border: 8px solid rgb(79, 77, 77);
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    left: 500px;
+    top: 20px;
+    box-shadow: 4px 4px 4px 1px;
+    border-radius: 10%;
+    
+}
+label
+{
+    color: rgb(18, 17, 17);
+   
+    display:block;
+    font-size: x-large;
+    text-shadow: 1px 2px 3px;
+    
+}
+input
+{
+    font-size: 20px;
+    padding: 6px;
+    margin: 10px;
+    
+}
+button
+{
+    background-color: rgb(20, 20, 20);
+    border-radius: 2%;
+    margin-top: -8px;
+    height: 40px;
+    width: 110px;
+    color: white;
+    
+}
+button:hover{
+    color: rgb(77, 91, 105);
+}
+.re
+{
+    background-color: rgb(1, 1, 1);
+    border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.la
+{
+    left: 150px;
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 50px;
+    border-radius: 100px;
+    height: 600px;
+    box-shadow: 0px 2px 10px 10px white ;
+}
+input,placeholder
+{
+    text-align: center;
+}
+footer
+{
+    background-color: black; 
+    width: 100%;height: 3rem;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index:-1;
+    position: relative;
+    text-align: center;
+    color: azure;
+    padding: 10pxx;
+    padding-top: 10px;
+    bottom: 0px;
+    font-size: 20px;
+}
+footer{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 0px 3px;
+    z-index: 1;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="https://en.wikipedia.org/wiki/Full_stack" target="_self" class="fu"> <i style="font-size: 40px;" class="fa fa-android"></i> FULL-STACK</a>
+        <span class="dev" style="color:white;font-size: 30px;">FULL-STACK DEVELOPER</span>
+        <a href="https://en.wikipedia.org/wiki/Front-end_web_development" class="fe" target="_self"> <i style="font-size: 40px;" class="fa fa-html5"></i> FRONT-END</a>
+        <a href="https://en.wikipedia.org/wiki/Back_end" class="be" target="_self"> <i style="font-size: 40px;" class="fa fa-behance-square"></i> BACK-END</a>
+        <a href="https://pwskills.com/blog/7-full-stack-development-projects-to-land-a-6-figure-job/" class="pro" target="_self"><i style="font-size: 40px;" class="fa fa-codepen"></i>  PROJECTS</a>
+    </nav>
+    
+        <img class="ss" src="https://miro.medium.com/v2/resize:fit:1200/1*-D6VWpsPWbWKAvdMyOg26g.png">
+   <h1>Full</h1>
+   <h2>Stack</h2>
+   <h5>Developer</h5>
+   <div>
+    <div><img  id="im1" class="images" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/279785179/original/c8853f24c2fbb0c610170cfc1514564156434408/be-your-front-end-developer-coding-is-my-passion.jpg" alt="frontend logo" title="frontend"></div>
+    <div><img id="im2" class="images" src="https://blog-cdn.codefinity.com/images/d87efef1-ff4d-4f36-a3a6-e034798cc96c_beec6ccde5064d43bcf04a1cabd58e40.png.png?w=1920&q=75" alt="backend logo" title="backend"></div>
+    <div><img id="im3" class="images" src="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/04/0-cl7fc6pt1MHjIF4K.png" title="fullstack" alt="projects logo"></div>
+   </div>
+   <div class="register">
+    <p class="re">Register here</p>
+    <br>
+    <form>
+    <label>NAME</label>
+    <input type="text" required placeholder="Enter your name"><br><br>
+    <label>EMAIL</label>
+    <input type="email" required placeholder="Enter your email"><br><br>
+    <label>LINKED-IN</label>
+    <input type="url" required placeholder="Paste your lined-in url"><br><br>
+    <label>PASSWORD</label>
+    <input type="password" required placeholder="Enter your password"><br><br>
+    <button type="button">Register</button> 
+    </form>  
+</div>
+<div>
+    <img class="la" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png">
+</div>
+</body>
+<footer> &copy; Designed by balu yempati</a> 
+ </footer>
+</html>
